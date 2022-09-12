@@ -1,0 +1,12 @@
+Task0: O(1). Since we are only printing specific elements from a list
+
+Task1: O(M+N). Since we are iterating through calls and texts list to determine unique ph no. I realized later that this can be performed using *set command, not sure if this would reduce the time 
+complexity to O(1)
+
+Task2: O(N^2). Since we have one for loop inside another.
+
+Task3 - PartA: O(N) for the for loop. O(1) for identifying the unique set of elements and O(NLogN) for the sort.
+
+Task3 - Part B: O(1) since the time complexity does not depend on the number of elements in the list
+
+Task4: O(M+N+P) for the 3 for loops. O(NLogN) for sorting.
